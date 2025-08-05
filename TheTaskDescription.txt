@@ -1,0 +1,54 @@
+# LLM/NLP Task
+
+## Instructions
+- Submit Python script(s) for each task, using valid syntax and appropriate `.py` extensions.
+- Scripts must run with only the Python interpreter; if external libraries are required, list them in a `requirements.txt`.
+- Provide a `README.md` specifying:
+  - Python version
+  - How to install dependencies
+  - How to run each script
+
+> **Important:**  
+> - Do _not_ use any LLM-based code generation tools (e.g., ChatGPT, Copilot, Bard) for solving or generating any part of this assignment.  
+> - Failure to meet the script, dependency, or documentation requirements—or evidence of LLM-generated content—will result in disqualification.
+
+---
+
+## Task Breakdown
+
+### 1. Text Processing  
+- **Dataset:** [IMDB 50k Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  
+- **Preprocessing steps:**  
+  1. Normalize text to lowercase  
+  2. Remove HTML tags (e.g., `<br/>`)  
+  3. Remove email addresses  
+  4. Remove URLs  
+  5. Remove punctuation  
+  6. Remove stop words  
+  7. Lemmatize words  
+- **Output:** Store the processed reviews and their sentiments in a pickle file.
+
+### 2. Machine Learning Sentiment Classifier  
+- Build a simple ML model (e.g., SVM, Decision Tree, Logistic Regression, Naive Bayes) to classify processed reviews.  
+- **Metrics to report:**  
+  - Accuracy  
+  - False Positive Rate (FPR)  
+  - False Negative Rate (FNR)  
+  - Any other relevant metrics  
+- Tokenizer choice is up to you.
+
+### 3. LSTM Sentiment Classifier  
+- Build an LSTM model that supports variable‐length inputs.  
+- Train and evaluate on two versions of the data:  
+  1. Preprocessed data from Task 1  
+  2. Raw, unprocessed data directly from the original dataset  
+- Report the same metrics as in Task 2.
+
+### 4. GPT-2 Prompt-Based Classification  
+- Use the pre-trained GPT-2 model (`openai-community/gpt2`) with few-shot prompts (1-shot, 2-shot, 3-shot) to classify single reviews.  
+- Deliver a CLI script that:  
+  1. Accepts one review as input  
+  2. Outputs strictly `"Positive"` or `"Negative"`  
+- Implement robust parsing/validation to guarantee the output format.
+
+---  
