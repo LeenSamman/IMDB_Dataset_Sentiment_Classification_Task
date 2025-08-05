@@ -7,7 +7,7 @@ This repository contains the task Python scripts, aligned with ProgressSoft Corp
   - `Text_Processing.ipynb`
   - `ML_Model_for_Sentiment_Classification.ipynb`
   - `LSTM_for_Sentiment_Classification.ipynb`
-  - `GPT2_Classification_using_Prompt_Engineering.ipynb`
+  - `GPT2_Classification_using_Prompt_Engineering.ipynb` -> this notebook face an issue uploading to github so i am providing the colab link : https://colab.research.google.com/drive/1SumvBoliFXicMm9lqZSkWKgKXWoInQII?usp=sharing
 
 - **scripts/**
   - `task1.py`  # Text processing  
