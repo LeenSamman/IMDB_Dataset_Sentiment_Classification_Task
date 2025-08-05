@@ -1,28 +1,27 @@
 # IMDB_Dataset_Sentiment_Classification_Task
-```markdown
+
 # IMDB Dataset Sentiment Classification Task
 
 This repository contains the task Python scripts, aligned with ProgressSoft Corporation’s assignment requirements and notebooks files that are the same as the scripts but are kept so they can be accessed from github for clarity.
 
-## Repository Structure
+# Repository Structure
 
-```
+- **notebooks/**
+  - `Text_Processing.ipynb`
+  - `ML_Model_for_Sentiment_Classification.ipynb`
+  - `LSTM_for_Sentiment_Classification.ipynb`
+  - `GPT2_Classification_using_Prompt_Engineering.ipynb`
 
-IMDB\_Dataset\_Sentiment\_Classification\_Task/
-├── notebooks/
-│   ├── Text\_Processing.ipynb
-│   ├── ML\_Model\_for\_Sentiment\_Classification.ipynb
-│   ├── LSTM\_for\_Sentiment\_Classification.ipynb
-│   └── GPT2\_Classification\_using\_Prompt\_Engineering.ipynb
-├── scripts/
-│   ├── task1.py      # Text processing (lowercase, HTML/email/URL/punctuation removal, stop-words, lemmatization)
-│   ├── task2.py      # ML model: TF–IDF + LinearSVC classification & evaluation
-│   ├── task3.py      # LSTM classification on both raw & preprocessed data
-│   └── task4.py      # GPT-2 prompt-engineering classification (1-shot, 2-shot, 3-shot)
-├── requirements.txt  # All third-party dependencies
-└── README.md         # This file
+- **scripts/**
+  - `task1.py`  # Text processing  
+  - `task2.py`  # ML model: TF–IDF + LinearSVC classification & evaluation  
+  - `task3.py`  # LSTM classification on both raw & preprocessed data  
+  - `task4.py`  # GPT-2 prompt-engineering classification (1-shot, 2-shot, 3-shot)
 
-````
+- **requirements.txt**  # All third-party dependencies
+
+- **README.md**  # This file  
+
 
 - **notebooks/**  
   Original `.ipynb` files demonstrating exploratory analysis, visualizations, and step-by-step development.
