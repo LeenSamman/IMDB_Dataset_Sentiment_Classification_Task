@@ -20,10 +20,10 @@ This repository contains the task Python scripts, aligned with ProgressSoft Corp
 - **README.md**  # This file  
 
 
-- **notebooks/**  
+  - **notebooks/**  
   Original `.ipynb` files demonstrating exploratory analysis, visualizations, and step-by-step development.
 
-- **scripts/**  
+  - **scripts/**  
   Clean, standalone `.py` scripts executable with a single Python interpreter, automatically downloading data from the Hugging Face Hub.
 
 - **requirements.txt**  
