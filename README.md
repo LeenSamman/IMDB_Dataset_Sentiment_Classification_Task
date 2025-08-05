@@ -56,7 +56,6 @@ This repository contains the task Python scripts, aligned with ProgressSoft Corp
 4. **GPT-2 Prompt Engineering** (`task4.py`)
 
    * Use 1-shot, 2-shot, and 3-shot few-shot prompt approaches
-   * Wrap the Hugging Face GPT-2 model in a simple CLI
    * Ensure outputs are strictly “Positive” or “Negative”
 
 ## Data
