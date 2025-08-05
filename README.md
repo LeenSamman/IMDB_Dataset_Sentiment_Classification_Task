@@ -1,7 +1,4 @@
 # IMDB_Dataset_Sentiment_Classification_Task
-
-# IMDB Dataset Sentiment Classification Task
-
 This repository contains the task Python scripts, aligned with ProgressSoft Corporation’s assignment requirements and notebooks files that are the same as the scripts but are kept so they can be accessed from github for clarity.
 
 # Repository Structure
