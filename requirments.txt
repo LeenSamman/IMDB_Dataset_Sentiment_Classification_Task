@@ -1,0 +1,10 @@
+huggingface_hub
+pandas
+matplotlib
+seaborn
+scikit-learn
+spacy
+tensorflow
+torch
+transformers
+en-core-web-sm     # spaCy’s small English model
