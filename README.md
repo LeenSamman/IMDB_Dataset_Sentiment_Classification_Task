@@ -30,7 +30,7 @@ This repository contains the task Python scripts, aligned with ProgressSoft Corp
   Lists all required packages; install via:
   ```bash
   pip install -r requirements.txt
-````
+
 
 ## Assignment Overview
 
@@ -67,14 +67,14 @@ This repository contains the task Python scripts, aligned with ProgressSoft Corp
   Raw and preprocessed CSV files are hosted on the Hugging Face Hub at `LeenSMN/IMDB-50k-reviews` for automatic download.
 
 ## Notes
-
-* The notebooks are included for transparency and educational clarity—they demonstrate exploratory steps, visualizations, and intermediate outputs.
+* Scripts should run after downloading the required packages .The **Raw Data & Processed Data have been uploaded to Hugging Face** so no need to save the data on your local machine.
+* Notebooks data are in the drive so if you want to run the notebooks you must access the data and trasfer the files into your **MyDrive** destination.links are provided below:
+    - https://drive.google.com/file/d/1vAcjI1BLEzjdqfSwcrwDWXIkw10DSgK6/view?usp=sharing
+    - https://drive.google.com/file/d/1PLoYC8owKyqwUpO9Td9mJC23JZ9zU1Cr/view?usp=sharing
 * Only the `.py` scripts are required for assignment submission; they contain all runnable code in linear, stand-alone form.
 
-## Acknowledgments
+# Acknowledgments
 
-This work was completed as an assignment for ProgressSoft Corporation’s Apollo Team. All code was written manually without the assistance of LLM-based code generation tools.
+This work was completed as an assignment for ProgressSoft Corporation’s Apollo Team. 
 
-```
-::contentReference[oaicite:0]{index=0}
-```
+
