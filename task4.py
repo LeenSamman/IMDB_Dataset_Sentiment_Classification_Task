@@ -125,22 +125,28 @@ Three-shot prompting supplied three example pairs.
 # 1-Shot Prompting Example
 test_review = '''jane austen definitely approve onegwyneth paltrow do awesome job capture attitude emma funny excessively silly elegant put convince british accent british maybe I m good judge fool meshe excellent slide doorsi forget she s american brilliant jeremy northam sophie thompson phyllida law emma thompson sister mother bate woman nearly steal showand ms law do not lineshighly recommend'''
 print("\n--- 1-Shot Prompting ---")
+print("The example used for 1-shot prompting:")
 prompt_1 = build_prompt(test_review, k=1)
 print(prompt_1)
+print("New review to classify:")
 print("Prediction:", classify_review(test_review, shots=1))
 
 # 2-Shot Prompting Example
 test_review = '''story hope highlight tragic reality youth face favela rise draw scary unsafe unfair world show beautiful color move music man dedicated friend choose accept world change action art entertain interesting emotional aesthetically beautiful film show film numerous high school student live neighborhood poverty gun violence enamor anderson protagonist recommend film age 13 subtitle image death background'''
 print("\n--- 2-Shot Prompting ---")
+print("The example used for 2-shot prompting:")
 prompt_2 = build_prompt(test_review, k=2)
 print(prompt_2)
+print("New review to classify:")
 print("Prediction:", classify_review(test_review, shots=2))
 
 # 3-Shot Prompting Example
 test_review = '''jeez immensely boring lead man christian schoyen get bad actor see thing character movie move america live 20 year speak lot well english pull say language skikkelig gebrokkent cool norwegian dude movie hollywood just damn shame talentless hack storyline mediocre suspicion christian schoyen do movie just live dream clearly do film hump beautiful babe'''
 print("\n--- 3-Shot Prompting ---")
+print("The example used for 3-shot prompting:")
 prompt_3 = build_prompt(test_review, k=3)
 print(prompt_3)
+print("New review to classify:")
 print("Prediction:", classify_review(test_review, shots=3))
 
 # Observation:
