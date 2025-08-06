@@ -127,8 +127,8 @@ test_review = '''jane austen definitely approve onegwyneth paltrow do awesome jo
 print("\n--- 1-Shot Prompting ---")
 print("The example used for 1-shot prompting:")
 prompt_1 = build_prompt(test_review, k=1)
-print(prompt_1)
 print("New review to classify:")
+print(prompt_1)
 print("Prediction:", classify_review(test_review, shots=1))
 
 # 2-Shot Prompting Example
@@ -136,8 +136,8 @@ test_review = '''story hope highlight tragic reality youth face favela rise draw
 print("\n--- 2-Shot Prompting ---")
 print("The example used for 2-shot prompting:")
 prompt_2 = build_prompt(test_review, k=2)
-print(prompt_2)
 print("New review to classify:")
+print(prompt_2)
 print("Prediction:", classify_review(test_review, shots=2))
 
 # 3-Shot Prompting Example
@@ -145,8 +145,8 @@ test_review = '''jeez immensely boring lead man christian schoyen get bad actor 
 print("\n--- 3-Shot Prompting ---")
 print("The example used for 3-shot prompting:")
 prompt_3 = build_prompt(test_review, k=3)
-print(prompt_3)
 print("New review to classify:")
+print(prompt_3)
 print("Prediction:", classify_review(test_review, shots=3))
 
 # Observation:
